@@ -1,34 +1,45 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <title>Document</title>
+   <link rel="stylesheet" href="reset.css">
+   <link rel="stylesheet" href="visual.css">
+    <title>Meu curriculo</title>
 </head>
 <body>
-  <div class="container">
-    <h2>Deixe uma Mensagem</h2>
-    <form action="#" method="post">
-        <div class="form-group">
-            <label for="nome">Nome:</label>
-            <input type="text" id="nome" name="nome" required>
+    <header>
+        <div class="meu-cabecalho">
+          
+          <h1>Currículo: José da Silva</h1> 
         </div>
-        <div class="form-group">
-            <label for="email">E-mail:</label>
-            <input type="email" id="email" name="email" required>
+      </header>
+      <main>
+        <div class="container-conteudo">
+          <ul>
+            <li>
+                <h2>Contato</h2>
+                <p>Rua: José Alencar, 123</p>
+                <p>Cidade: Itapira/SP </p>
+                <p>Telefone: (19)9999-9999</p>
+              </li>
+            <li class="meu-titulo-conteudo">
+              <h2>Experiência Profissional</h2>
+              <p> Microsoft Office</p>
+              <p>Linux - Fedora</p>
+              <p>Corel Draw</p>
+            </li>
+            <li class="meu-titulo-conteudo">
+              <h2>Formação Acadêmica</h2>
+              <p> Escola Técnica José Alencar </p>
+              <p>Duração: 18 meses</p>
+            </li>
+          </ul>
         </div>
-        <div class="form-group">
-            <label for="website">Website:</label>
-            <input type="text" id="website" name="website">
-        </div>
-        <div class="form-group">
-            <label for="mensagem">Mensagem:</label>
-            <textarea id="mensagem" name="mensagem" required></textarea>
-        </div>
-        <button type="submit">Enviar Mensagem</button>
-    </form>
-</div>
-
+       
+    </main>
+    <footer>
+        <p>Itapira, 10 de Janeiro de 2017</p>
+    </footer>
 </body>
 </html>
